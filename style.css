@@ -1,0 +1,47 @@
+* body {
+  width: 100%;
+  height: auto;
+  background-color: rgb(230, 182, 127);
+}
+
+.grid_container1 {
+  display: grid;
+  width: 100%;
+  height: auto;
+  grid-template-columns: 1fr 1fr 1fr; /* Two equal columns */
+}
+
+.forsidetext {
+  display: flex;
+  justify-content: center; /* Center the content horizontally */
+  align-items: center; /* Center the content vertically */
+  color: rgb(0, 0, 0);
+  background-color: rgba(255, 255, 255, 0.396);
+  text-align: center;
+  font-size: 500%;
+  border: 2px solid #fff; /* Set the border width and color */
+  box-shadow: 0 0 5px #fff, /* White glow */ 0 0 10px #fff,
+    /* Larger white glow */ 0 0 15px #ff9500,
+    /* Orange outer glow */ 0 0 20px #ffb700,
+    /* Larger orange glow */ 0 0 25px #ff7b00,
+    /* Even larger orange glow */ 0 0 30px #ff4d00; /* Faintest orange glow */
+  white-space: nowrap; /* Prevent text from wrapping */
+}
+
+.grid_1,
+.grid_2,
+.grid_3 {
+  display: grid;
+  color: rgb(255, 119, 0);
+}
+
+.grid_1 {
+  grid-column: 2/2;
+}
+
+a {
+  text-decoration: none;
+  font-size: large;
+  color: rgb(10, 9, 9);
+  background-color: var(--cat-background-color);
+}
